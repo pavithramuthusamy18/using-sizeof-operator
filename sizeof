@@ -1,0 +1,13 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main ()
+{
+	int a,b,c,d;
+	a=sizeof(char);
+	b=sizeof(int);
+	c=sizeof(float);
+	d=sizeof(double);
+	cout<<"Size of char:"<<a<<"\n"<<"Size of int:"<<b<<"\n"<<"Size of float:"<<c<<"\n"<<"Size of double:"<<d;
+	return 0;
+}
